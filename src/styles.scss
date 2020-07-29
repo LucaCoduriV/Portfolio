@@ -1,0 +1,73 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~normalize.css";
+@import url("http://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@import "./styles/btn";
+@import "./styles/shadow";
+@import "./styles/puces";
+@import "./styles/inputs";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --secondary-color: #ed2c3f;
+  --bg-color: #f3f3f3;
+  --primary-color: #07090b;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+  margin: 0px;
+  font-weight: 500;
+}
+
+h2 {
+  margin: 0px;
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+h3 {
+  margin: 0px;
+  color: var(--secondary-color);
+  font-size: 30px;
+  font-weight: 500;
+}
+
+h4 {
+  color: var(--primary-color);
+  margin: 0px;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+h5 {
+  color: var(--primary-color);
+  margin: 0px;
+  padding-top: 5px;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h6 {
+  color: var(--primary-color);
+  margin: 0px;
+  padding-left: 60px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+a {
+  text-align: center;
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+  text-transform: uppercase;
+}

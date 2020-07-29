@@ -1,0 +1,34 @@
+.projects-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+.project {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+//https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
+
+.project-big {
+  width: calc(40vw * 1.77);
+  height: 40vw;
+  max-height: 600px;
+  max-width: 1060px;
+}
+
+.project-small {
+  width: 400px;
+  height: 300px; /* 4:3 Aspect Ratio */
+}
+
+.project-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: white;
+}

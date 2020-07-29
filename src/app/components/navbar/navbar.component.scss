@@ -1,0 +1,31 @@
+:host {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  color: white;
+
+  .links {
+    display: flex;
+    justify-content: space-between;
+    ul {
+      list-style: none;
+      height: fit-content;
+      margin: auto;
+      li {
+        float: left;
+        margin-right: 19px;
+      }
+    }
+  }
+}

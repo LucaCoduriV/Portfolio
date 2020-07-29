@@ -1,0 +1,21 @@
+.btn {
+  display: block;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  font-size: 20px;
+  color: white;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: fit-content;
+}
+
+.btn-red {
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}

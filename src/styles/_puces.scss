@@ -1,0 +1,10 @@
+.puce_line {
+  &:before {
+    content: "";
+    display: inline-block;
+    border-bottom: 1px solid var(--secondary-color);
+    width: 40px;
+    margin-right: 20px;
+    transform: translateY(-6px);
+  }
+}

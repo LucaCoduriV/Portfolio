@@ -1,0 +1,32 @@
+input,
+textarea {
+  border-color: #cccccc;
+  border-style: solid;
+  font-size: 19px;
+  padding: 12px;
+  text-align: left;
+  //box-shadow: 3px 3px 5px 0px rgba(42, 42, 42, 0.75);
+  border-width: 0.5px;
+  border-color: #707070;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+input[type="submit"] {
+  height: 66px;
+  width: 184px;
+  font-size: 24px;
+  color: white;
+  box-shadow: none;
+  background-color: var(--secondary-color);
+  text-align: center;
+}
